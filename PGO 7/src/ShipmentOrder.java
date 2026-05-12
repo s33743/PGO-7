@@ -60,7 +60,10 @@ public abstract class ShipmentOrder implements SummaryPrintable {
         }
         this.orderNumber = orderNumber;
     }
-    protected void validateSpecificRules();
+    protected void validateSpecificRules() {
+
+    }
+
 
     private double applyInsurance(double price) {
         if (isInsured()) {
